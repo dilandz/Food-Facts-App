@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nutritionfactsapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.LOCATION_HARDWARE.camera" />
+    <uses-permission android:name="android.permission.LOCATION_HARDWARE.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_1_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NutritionFactsApp">
+        <activity
+            android:name=".DisplayCustomListItem"
+            android:label="List"
+            android:parentActivityName=".CustomList"/>
+        <activity
+            android:name=".Profile"
+            android:label="Profile"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ForgotPassword"
+            android:label="Reset Password"
+            android:parentActivityName=".Login" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Sign_up"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Confirm"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".SearchResult"
+            android:label="Results"
+            android:parentActivityName=".SearchDisplay" />
+        <activity
+            android:name=".AddList"
+            android:label="Create List"
+            android:parentActivityName=".CustomList" />
+        <activity
+            android:name=".CustomList"
+            android:label="Custom Lists"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SearchDisplay"
+            android:label="Search Products"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DisplayingItem"
+            android:label="Product Information"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity" />
+        <activity
+            android:name=".StartScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CaptureAct"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+    </application>
+
+</manifest>

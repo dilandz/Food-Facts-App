@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "60065095065",
+    "project_id": "food-facts-app",
+    "storage_bucket": "food-facts-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60065095065:android:53cb792c5e855853b6c708",
+        "android_client_info": {
+          "package_name": "com.example.nutritionfactsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60065095065-4pqkb9kdrkvibdevq9it034vbcfe3i5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL9n6PHRmFz9IO278LgxASeSxt8xP6hWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60065095065-4pqkb9kdrkvibdevq9it034vbcfe3i5f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
